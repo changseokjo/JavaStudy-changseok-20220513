@@ -1,5 +1,6 @@
 package j16_인터페이스_활용.controller;
 
+import j16_인터페이스_활용.service.AuthUserService;
 import j16_인터페이스_활용.service.UserService;
 
 public class ApiController {
@@ -13,6 +14,7 @@ public class ApiController {
 	public void addUser() {
 		System.out.println("사용자 추가");
 		userService.create();
+		((AuthUserService) userService).test();
 	}
 	
 	public void getUser() {

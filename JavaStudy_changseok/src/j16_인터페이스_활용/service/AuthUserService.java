@@ -22,4 +22,8 @@ public class AuthUserService implements UserService {
 		System.out.println("자회사 회원 탈퇴");
 	}
 	
+	public void test() {
+		System.out.println("test");
+	}
+	
 }
