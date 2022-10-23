@@ -26,6 +26,7 @@ public class User {
 
 	// 전체생성자
 	public User(String usercode, String email, String name, String username, String password) {
+		super();
 		this.usercode = usercode;
 		this.email = email;
 		this.name = name;
